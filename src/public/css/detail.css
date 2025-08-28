@@ -1,0 +1,164 @@
+.product-detail {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 70px 356px;
+    gap: 30px;
+    width: 1512px;
+    height: 797px;
+    background: #F8F8F8;
+}
+
+.product-detail__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 800px;
+    height: 697px;
+    position: relative;
+}
+
+.product-detail__image{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 374px;
+    height: 322px;
+}
+
+.product-detail__image__inner-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 300px;
+    height: 31px;
+}
+
+.product-detail__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 800px;
+    height: 355px;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+
+.product-detail__name,
+.product-detail__price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 396px;
+    height: 77px;
+}
+
+.product-detail__name__inner-input,
+.product-detail__price__inner-input{
+    width: 396px;
+    height: 43px;
+    background-color: #FFFFFF;
+    border: solid 1px #CCCCCC;
+    border-radius: 10px;
+    font-family: 'Hiragino Kaku Gothic Pro',serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.product-detail__info__description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 800px;
+    height: 194px;
+}
+
+.product-detail__description {
+    width: 64px;
+    height: 24px;
+    font-family: 'Hiragino Kaku Gothic Pro',serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4B4B;
+}
+
+.product-detail__description__inner-textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 800px;
+    height: 160px;
+    background-color: #FFFFFF;
+    border: solid 1px #CCCCCC;
+    border-radius: 10px;
+}
+
+.product-detail__form__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 760px;
+    height: 50px;
+    margin-top: 200px;
+}
+
+.product-back__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 10px;
+    gap: 10px;
+    width: 200px;
+    height: 50px;
+    background: #E0DFDE;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.product-update__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 10px;
+    gap: 10px;
+    width: 200px;
+    height: 50px;
+    background: #F5C800;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.product-detail__name__innner p,
+.product-detail__price__inner p,
+.product-detail__seasons__inner p {
+    width: 48px;
+    height: 24px;
+    font-family: 'Hiragino Kaku Gothic Pro',serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}

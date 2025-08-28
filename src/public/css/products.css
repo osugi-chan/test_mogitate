@@ -1,0 +1,146 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 70px 0px;
+    gap: 20px;
+    width: 1512px;
+    height: 1000px;
+    background: #F8F8F8;
+}
+
+.content__heading-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    gap: 1167px;
+
+    width: 1512px;
+    height: 50px;
+}
+
+.products__items__add {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 20px;
+    gap: 10px;
+    width: 137px;
+    height: 50px;
+    background: #FFA929;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.products__items__add a {
+    width: 97px;
+    height: 24px;
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4B4B;
+}
+
+.products__items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 40px;
+    gap: 30px;
+    width: 1512px;
+    height: 790px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 240px;
+    height: 267px;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 240px;
+    height: 114px;
+}
+
+.search-form__input {
+    padding: 0px 0px 20px;
+    gap: 10px;
+    width: 240px;
+    height: 70px;
+}
+
+.search-form__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 240px;
+    height: 44px;
+    background: #F5C800;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+}
+
+.products__items__container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 20px;
+    width: 1162px;
+    height: 790px;
+}
+
+.products__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 374px;
+    height: 350px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+    border-radius: 5px;
+}
+
+.products__item__image {
+    width: 374px;
+    height: 281px;
+}
+
+.products__item__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 184px;
+    width: 374px;
+    height: 69px;
+    background: #FFFFFF;
+}
+
+.products__item__name,
+.products__item__price {
+    margin: 0  auto;
+    width: 216px;
+    height: 29px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}

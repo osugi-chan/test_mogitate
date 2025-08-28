@@ -1,0 +1,160 @@
+.products-items__register {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 70px 376px;
+    gap: 40px;
+    width: 1512px;
+    height: 930px;
+    background: #F8F8F8;
+}
+
+.register-heading{
+    width: 128px;
+    height: 48px;
+    font-family: 'Hiragino Kaku Gothic Pro',serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color:#333333;
+}
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 760px;
+    height: 702px;
+}
+
+.register-form__group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 760px;
+    height: 77px;
+}
+
+.register-form__label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 150px;
+    height: 24px;
+    margin-top: 5px;
+
+}
+.register-form__label__description__wrapper{
+    display: block;
+}
+
+.products-items__register-input__name,
+.products-items__register-input__price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 760px;
+    height: 43px;
+    border: solid 1px #CCCCCC;
+    background-color: #FFFFFF;
+}
+
+.register-form__group__image {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 118px;
+}
+
+.register-form__label__image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 108px;
+    height: 24px;
+}
+
+.register-form__group__description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 760px;
+    height: 134px;
+    margin-top: 50px;
+}
+.register-form__textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    width: 760px;
+    height: 104px;
+    border: solid 1px #CCCCCC;
+    background-color: #FFFFFF;
+    display: block;
+}
+
+.register-form__group__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 20px;
+    width: 760px;
+    height: 50px;
+}
+
+.register-back__button,
+.register-form__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 10px;
+    gap: 10px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.register-form__button{
+    background: #F5C800;
+}
+.register-back__button{
+    background: #E0DFDE;
+}
+
+.register-form__required {
+    width: 34px;
+    height: 18px;
+    background: #FD0707;
+    border-radius: 3px;
+    font-family: 'Hiragino Kaku Gothic Pro',serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+}
+.register-form__error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
