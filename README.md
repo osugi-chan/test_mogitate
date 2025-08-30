@@ -16,7 +16,9 @@ mkdir mysql/data
 touch mysql/my.cnf
 touch nginx/default.conf
 touch php/Dockerfile
+```
 touch php/php.iniを実行し、Dockerビルドに必要なディレクトリを作成する。
+
 2.docker-compose.yml の作成
 3.default.confファイル作成
 4.Dockerfile設定
