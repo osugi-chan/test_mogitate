@@ -2,8 +2,10 @@
 
 ## 環境構築
 **Dockerビルド**
-1．ディレクトリの作成
+1.ディレクトリの作成
 ※カレントディレクトリは~/coachtech想定
+
+```bash
 mkdir verification_test
 cd verification_test
 mkdir docker src
@@ -15,12 +17,12 @@ touch mysql/my.cnf
 touch nginx/default.conf
 touch php/Dockerfile
 touch php/php.iniを実行し、Dockerビルドに必要なディレクトリを作成する。
-2．docker-compose.yml の作成
-3．default.confファイル作成
-4．Dockerfile設定
-5．php.iniファイル設定
-6．my.cnfファイル設定（Mysqlの設定）
-7．`docker-compose up -d --build`
+2.docker-compose.yml の作成
+3.default.confファイル作成
+4.Dockerfile設定
+5.php.iniファイル設定
+6.my.cnfファイル設定（Mysqlの設定）
+7.`docker-compose up -d --build`
 
 **Laravel環境構築**
 1. `docker-compose exec php bash`
